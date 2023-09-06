@@ -1,0 +1,95 @@
+
+
+/* Home */
+.home{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/home-bg.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+h2{
+    font-size: 60px;
+}
+.side-nav{
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 20%;
+    /* display: none; */
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+}
+.open-nav{
+    font-size:30px;
+    cursor:pointer;
+    left: 60px;
+    
+}
+.singers{
+    background-color: rgba(214, 46, 51 , 0.6);
+    font-weight: 500;
+    font-size: 1.75rem;
+    color: white;
+    
+}
+p{
+    background-color: rgb(180, 180, 180);
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+.count-down{
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../images/count.jpg);
+    height: 50vh;
+    background-position: center center;
+    background-size: cover;
+}
+.div{
+    border: white 2px solid;
+    font-size: 30px;
+}
+.con-p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #777 ;
+    display: block !important;
+    background-color: white;
+}
+.icons i, .form-control::placeholder{
+    color:#777 !important;
+}
+.con-red{
+    color: red;
+}
+.social-icons i {
+    color: #777;
+    border: 1px #777 solid;
+    padding: 10px 10px;
+
+}
+.btn-danger{
+    display:block;
+    
+}
+.nav-link:hover, .closebtn:hover{
+    color:rgb(214, 46, 51 ) !important;
+    transition: all 0.5s;
+}
